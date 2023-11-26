@@ -6,3 +6,4 @@
 - Homework3 — switch case.
 - Homework4 — задачи (условия, switch case, ввод/вывод)
 - Homework5 — игра камень, ножницы, бумага.
+- Homework6 — игра в кости.
