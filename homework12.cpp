@@ -1,28 +1,31 @@
 ﻿
 
-#include <iostream>
+##include <iostream>
 using namespace std;
 
 #define random(a, b) a+rand()%(b-a+1)
 
-int task1(int degree, int index) {
-    int answer = degree;
-    for (int i = 1; i < index; i++) {
-        answer *= degree;
-    }
-    return answer;
+int findindex(int array[]) {
+
 }
 
-
-int task2(int min, int max) {
-    int summ = 0;
-    for (int i = min; i <= max; i++) {
-        summ += i;
+void fillArray(int array[], int size) {
+    for (int i = 0; i < size; i++) {
+        array[i] = random(1, 10);
     }
-    return summ;
+}
+
+void showArray(int array[], int size) {
+    for (int i = 0; i < size; i++) {
+        cout << array[i] << " ";
+    }
+    cout << endl;
 }
 
 int main()
 {
-
+    int size = sizeof(array) / sizeof(array[0]);
+    int array[10]{};
+    fillArray(array);
+    showArray(array);
 }
